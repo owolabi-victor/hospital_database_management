@@ -8,7 +8,6 @@ This is the **frontend** of a **Hospital Database Management System**. It provid
 
 - 📋 **Patient Management** – View and manage patient records.
 - 📅 **Appointment Scheduling** – Schedule and modify appointments.
-- 🏥 **Doctor Database** – Display available doctors and their schedules.
 - 🔍 **Search Functionality** – Easily find patient and doctor records.
 - 🎨 **Responsive UI** – Works on desktop.
 
