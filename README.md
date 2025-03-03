@@ -27,9 +27,9 @@ This is the **frontend** of a **Hospital Database Management System**. It provid
  ├── payers.html      # payers management page
  ├── procedures.html        # procedures landing page
  ├── organizations.html  # organizations landing page
- ├── index.html        # Main landing page
  ├── style.css         # Main stylesheet
- ├── script.js         # Main JavaScript file
+ ├── update.js         # Main JavaScript file
+ ├── search.js         # search JavaScript file
  └── README.md         # Project documentation
 ```
 
