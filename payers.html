@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Hospital Management System</h1>
+        <div class="navbar-links">
+            <a href="index.html" data-section="patients">Patients</a>
+            <a href="encounters.html" data-section="encounters">Encounters</a>
+            <a href="procedures.html" data-section="procedures">Procedures</a>
+            <a href="organizations.html" data-section="organizations">Organizations</a>
+            <a href="payers.html" data-section="payers" class="active">Payers</a>
+        </div>
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for patients, encounters, or procedures...">
+    </div>
+
+    <section id="payers-section" class="section-content ">
+        <div class="card">
+            <button class="add-btn" onclick="showAddForm('payers')">+ Add payers</button>
+            <h2>Insurance Payers</h2>
+            <table id="payers-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+    <script src="update.js"></script>
+</body>
+</html>

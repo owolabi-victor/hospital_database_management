@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encounters</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Hospital Management System</h1>
+        <div class="navbar-links">
+            <a href="index.html" data-section="patients" >Patients</a>
+            <a href="encounters.html" data-section="encounters" class="active">Encounters</a>
+            <a href="procedures.html" data-section="procedures">Procedures</a>
+            <a href="organizations.html" data-section="organizations">Organizations</a>
+            <a href="payers.html" data-section="payers">Payers</a>
+        </div>
+    </nav>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for patients, encounters, or procedures...">
+    </div>
+
+    <section id="encounters-section" class="section-content ">
+        <div class="card">
+            <button class="add-btn" onclick="showAddForm('encounters')">+ Add encounters</button>
+            <h2>Recent Encounters</h2>
+            <table id="encounters-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Patient</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+    <!-- <script src="encounters.js"></script> -->
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+    <script src="update.js"></script>
+</body>
+</html>
